@@ -1,0 +1,119 @@
+body{font-family: 'Libre Franklin' !important;
+	 font-size: 20px			}
+
+.header{ padding-top: 60px;
+			 padding-bottom: 15px;}
+	
+	.header img{padding-bottom: 25px}
+	
+	.header h1{color: hsl(0, 0%, 59%);
+		font-weight: bold;
+				font-size: 35px;}
+	
+	.header p{font-size: 17px}
+	
+	.header span {color: black}
+	
+	.EmailForm .form-group{width: 100%}
+	
+	.EmailForm input[type=email]{border-radius: 25px;
+									padding: 20px;
+									padding-left: 35px;
+									width: 27%;
+		    						margin-right: 15px;
+									margin-left: 330px;}
+
+									
+	
+	#validationCustom03{color: hsl(223, 100%, 88%)}
+	
+	.EmailForm button { width: 12%;
+						border-radius: 25px;
+						margin-top: px;
+						color: #fff;
+						background-color: hsl(223, 87%, 63%);
+						box-shadow: 0 8px 6px -6px #b1afaf;}
+
+
+	
+	.EmailForm button :hover{cursor: pointer;}
+	
+	.Image{padding-top: 40px;}
+
+    .Image img{width: 100%;}	
+	
+	.social{ overflow: hidden;
+	         margin: auto;
+		     margin-top: 60px;
+		     padding-left: 75px;
+
+  			 }
+	
+	.social ul{list-style: none}
+
+    .social li{ float: left; 
+				opacity: 0.7; 
+		        padding: 10px;
+				filter: alpha(opacity=70)}
+
+	.social li i{border: 1px solid hsl(223, 87%, 63%);
+					border-radius: 50px;
+					font-size: 15px;
+					padding: 7px;
+					color:hsl(223, 87%, 63%)}
+	
+     .social li:hover{opacity: 1}
+	
+	.paragraph p{font-size: 13px;
+					text-align: center;
+					padding-top: 20px;
+					color: hsl(0, 0%, 59%);}
+	
+
+
+
+.attribution { font-size: 13px; text-align: center; }
+.attribution a { color: hsl(223, 87%, 63%); }
+
+
+@media (max-width: 992px) {
+	
+	.container { padding-right: 0;
+				 padding-left: 25px;}
+	
+	.EmailForm input[type=email]{	margin-left: 0px;
+									width: 100%;}
+	
+	.EmailForm button {width: 100%;
+						margin-top: 12px;
+						padding: 8px;}
+	
+	.EmailForm button :hover{cursor: pointer;}
+	
+	.Image{padding-top: 40px;}
+
+    .Image img{width: 100%;}	
+	
+	.social{ overflow: hidden;}
+	
+	.social ul{list-style: none}
+
+    .social li{ float: left; 
+				margin-right: 3px; 
+				opacity: 0.7; 
+		        padding: 10px;
+				filter: alpha(opacity=70)}
+
+	.social li i{border: 1px solid hsl(223, 87%, 63%);
+					border-radius: 50px;
+					font-size: 15px;
+					padding: 7px;
+					color:hsl(223, 87%, 63%)}
+	
+     .social li:hover{opacity: 1}
+	
+	.paragraph p{font-size: 13px;
+					text-align: center;
+					color: hsl(0, 0%, 59%);}
+	
+}
